@@ -1,4 +1,7 @@
 ## Escuela Colombiana de Ingeniería
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e356c17c0d4643ffa2ea24248078adc4)](https://app.codacy.com/app/Sergyo97/WebAppHeroku?utm_source=github.com&utm_medium=referral&utm_content=Sergyo97/WebAppHeroku&utm_campaign=Badge_Grade_Dashboard)
+
 ## Procesos de desarrollo de Software – PDSW
 ## Parcial Práctico - 1er Tercio
 
