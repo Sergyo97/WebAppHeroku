@@ -21,7 +21,7 @@ import edu.eci.pdsw.validator.SalaryValidator;
 /**
  * Servlet class for employee validation
  */
-@WebServlet(urlPatterns = "/validate")
+@WebServlet(urlPatterns = "/")
 public class ValidateServlet extends HttpServlet {
 
 	/**
@@ -64,15 +64,11 @@ public class ValidateServlet extends HttpServlet {
 		String id = req.getParameter("personID");
 		String salary = req.getParameter("salary");
 		String sS = req.getParameter("SocialSecurity");
-		SocialSecurityType socialSecurity;
-		
 		if(sS == "SISBEN") {
-			socialSecurity = SocialSecurityType.SISBEN;
 		}
 		if(sS == "EPS") {
-			socialSecurity = SocialSecurityType.EPS;
-		}else 
-			socialSecurity = SocialSecurityType.PREPAID;
+		} else {
+		}
 		
 		System.out.println(Integer.parseInt(id));
 		System.out.println(Long.parseLong(salary));
